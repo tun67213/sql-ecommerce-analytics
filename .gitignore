@@ -1,9 +1,16 @@
-*.csv
-*.json
-data/.DS_Store
-scripts/.DS_Store
-*.save
+# Environment / secrets
 .env
-.env
-.env.save
+!.env.example
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
 .DS_Store
+
